@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shyams project</title>
+
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        body{
+            background-color: white;
+        }
+        .header{
+            background-color: rgb(251, 249, 249);
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+            padding: 15px 50px;
+            list-style: none;
+        }
+        .logo{
+            display: flex;
+            align-items: center;
+            font-size: 50px;
+            font-weight: bold;
+        }
+        .logo img {
+            height: 150px;
+            width: 150px;
+            margin-right: 100px;
+            
+        }
+        .menu-icon {
+            font-size: 28px;
+            cursor: pointer;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 50px;
+            padding-left: 50px;
+        }
+        .text-content {
+            max-width: 50%;
+            
+        }
+        .text-content h1 {
+            font-size: 48px;
+            font-weight: 600;
+        }
+        .text-content p {
+            font-size: 16px;
+            color: gray;
+            margin: 15px 0;
+
+        }
+        .discount-badge {
+            
+            background-color: green;
+            color: white;
+            padding: 5px 15px;
+            display: inline-block;
+            font-size: 14px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            
+        }
+        .explore-btn {
+            background-color: orange;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .image-content img {
+            width: 600px;
+            border-radius: 500%;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo" style="font-size: 100px;">
+            <img src="dechord.png" alt="De Chords image">
+        </div>
+        <div>
+            <ul style="list-style: none; display: flex; gap: 50px; font-weight: bold; padding-left: 480px;">
+                <li>About</li>
+                <li>Contact</li>
+                <li>Our Products</li>
+            </ul>
+        </div>
+        <div class="menu-icon">☰</div>
+    </div>
+    <div class="container">
+        <div class="image-content" style="padding-left: 30px;">
+            <img src="guitar.jpg">
+        </div>
+        <div class="text-content">
+            <div class="discount-badge">50% discout on all products</div>
+            <h1>Guitar</h1>
+            <p>The guitar is a versatile and widely used stringed musical instrument. It has been a <br> fundamental part of 
+                various music genres, including rock, blues, jazz, classical, <br> flamenco, and pop. </p> <br>
+
+               <p style="padding-top: 0px;"> 🎸 Types of Guitars <br>
+                <li style="padding-left: 40px; color: gray;">Electric Guitar – Requires an amplifier to produce sound. </li> <br>
+                <li style="padding-left: 40px; color: gray;">Acoustic Guitar – Produces sound naturally using a hollow body. </li> <br>
+                <li style="padding-left: 40px; color: gray;">Classical Guitar – Uses nylon strings, ideal for classical and fingerstyle music.</li> <br>
+                <li style="padding-left: 40px; color: gray;">Bass Guitar – Has four or more strings and provides the low-end rhythm in music.</li>
+            </p>
+            <a href="#" class="explore-btn">Explore Now</a>
+        </div>
+    </div>
+</body>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            padding: 40px;
+        }
+        .card {
+            width: 30%;
+            text-align: center;
+            padding: 20px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .card img {
+            width: 80px;
+            height: auto;
+        }
+        .menu-btn {
+            padding-top: 100px;
+            background: green;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" style="padding-top: 150px;">
+        <div class="card">
+            <img src="discount.jpg" alt="Discount Voucher">
+            <h3 style="font-family: sans-serif; padding-bottom: 10px;">Discount Voucher</h3>
+            <p style="color: gray; ">Enjoy special discounts on your favorite meals with our exclusive vouchers. Save big while dining deliciously!</p>
+        </div>
+
+        <div class="card">
+            <img src="instruments.png" alt="Fresh Healthy Food">
+            <h3 style="font-family: sans-serif; padding-bottom: 10px;">Musical Instruments</h3>
+            <p style="color: gray;">Whether you're a beginner looking to start your musical journey or a professional searching for premium equipment, we have something for everyone. Our instruments are carefully selected for their superior craftsmanship, durability, and sound quality. At Melody Music Store, we don’t just sell instruments—we help bring music to life. Visit us today and let the music begin! 🎵✨</p>
+        </div>
+
+        <div class="card">
+            <img src="delivery.jpg" alt="Fast Home Delivery">
+            <h3 style="font-family: sans-serif; padding-bottom: 10px;">Fast Home Delivery</h3>
+            <p style="color: gray;" >Order from our menu and get your food delivered fast and fresh right to your doorstep.</p>
+        </div>
+    </div>
+    <button class="menu-btn">Explore Our Menu</button>
+</body>
+<head>
+    <style>
+        .menu-section {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+        }
+        .menu-item {
+            width: 250px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .menu-item img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+        .menu-item p {
+            padding: 10px;
+            font-size: 16px;
+            font-family: monospace;
+        }
+        .footer {
+            background-color: rgb(251, 249, 249);
+            padding: 20px;
+            margin-top: 30px;
+        }
+        .footer-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .footer-column {
+            text-align: left;
+        }
+        .footer-column h3 {
+            margin-bottom: 10px;
+        }
+        .social-icons {
+            margin-top: 10px;
+        }
+        .social-icons a {
+            margin: 0 5px;
+            font-size: 20px;
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="padding-top: 100px; padding-bottom: 80px;">Explore Our Products</h2>
+
+    <div class="menu-section">
+        <div class="menu-item">
+            <img src="guitar1.jpg">
+            <p>Guitar</p>
+        </div>
+        <div class="menu-item">
+            <img src="drums.jpeg">
+            <p>Drums</p>
+        </div>
+        <div class="menu-item">
+            <img src="piano.jpg">
+            <p>Piano</p>
+        </div>
+        <div class="menu-item">
+            <img src="violin.jpg">
+            <p>Violin</p>
+        </div>
+    </div>
+
+    
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>Main Links</h3>
+                <p>Order Tracking</p>
+                <p>New Order</p>
+                <p>Contact Us</p>
+                <p>News & Blogs</p>
+            </div>
+            <div class="footer-column">
+                <h3>Support</h3>
+                <p>About Us</p>
+                <p>Privacy Policy</p>
+                <p>Terms & Conditions</p>
+            </div>
+            <div class="footer-column">
+                <h3>Support</h3>
+                <input type="email" placeholder="Enter your Email..." style="padding: 5px;">
+            </div>
+            <div class="footer-column">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a style="font-style: oblique;" href="#">Instagram</a><br>
+                    <a style="font-style: oblique;" href="#">Youtube</a><br>
+                    <a style="font-style: oblique;" href="#">Facebook</a><br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
